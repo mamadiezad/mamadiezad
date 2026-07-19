@@ -28,7 +28,7 @@
     <img src="https://img.shields.io/github/stars/mamadiezad?style=for-the-badge&logo=github&label=Stars&color=DA0000" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=mamadiezad&style=for-the-badge&color=FFD700&label=Profile+Views" />
-  <img src="https://img.shields.io/badge/Location-%F0%9F%87%AE%F0%9F%87%B7%20Iran-FFD700?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Location-Iran-FFD700?style=for-the-badge" />
 </p>
 
 <br/>
