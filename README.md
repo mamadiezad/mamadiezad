@@ -13,9 +13,9 @@
 
 <br/>
 
-<!-- Iran Flag Contribution Grid with Lion & Sun -->
+<!-- Iran Flag Contribution Grid with Lion & Sun (Animated) -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mamadiezad/mamadiezad/main/assets/iran-grid.png" alt="Iran Flag Grid with Lion & Sun" width="100%" />
+  <img src="https://raw.githubusercontent.com/mamadiezad/mamadiezad/main/assets/iran-grid.svg" alt="Iran Flag Contribution Grid with Golden Lion & Sun" width="100%" />
 </div>
 
 <br/>

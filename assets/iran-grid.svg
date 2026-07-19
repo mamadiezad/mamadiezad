@@ -1,0 +1,340 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1000 220" style="background: #0d1117;">
+  <defs>
+    <!-- Iran Flag Gradients -->
+    <linearGradient id="greenFlag" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#239F40"/>
+      <stop offset="100%" stop-color="#1B7A32"/>
+    </linearGradient>
+    <linearGradient id="redFlag" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DA0000"/>
+      <stop offset="100%" stop-color="#B30000"/>
+    </linearGradient>
+
+    <!-- Golden Gradients -->
+    <radialGradient id="emblemGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.95"/>
+      <stop offset="25%" stop-color="#FFC125" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#FFA500" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="gold" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#FFF4A0"/>
+      <stop offset="30%" stop-color="#FFD700"/>
+      <stop offset="70%" stop-color="#FFC125"/>
+      <stop offset="100%" stop-color="#DAA520"/>
+    </linearGradient>
+
+    <linearGradient id="goldLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFE0"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="superGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="mediumGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="lightGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Contribution Grid Pattern -->
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" rx="3" fill="none"/>
+    </pattern>
+
+    <clipPath id="roundClip">
+      <rect x="0" y="0" width="1000" height="220" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="220" fill="#0d1117" rx="16"/>
+
+  <g clip-path="url(#roundClip)">
+    <!-- ====== FLAG STRIPES (Subtle background) ====== -->
+    <rect x="0" y="0" width="1000" height="73" fill="url(#greenFlag)" opacity="0.12"/>
+    <rect x="0" y="73" width="1000" height="74" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="0" y="147" width="1000" height="73" fill="url(#redFlag)" opacity="0.12"/>
+
+    <!-- ====== CONTRIBUTION GRID CELLS ====== -->
+    <!-- Green Zone Cells -->
+    <g opacity="0.7">
+      <rect x="20" y="10" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.8s" repeatCount="indefinite"/></rect>
+      <rect x="40" y="15" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/></rect>
+      <rect x="60" y="8" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.2s" repeatCount="indefinite"/></rect>
+      <rect x="80" y="18" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/></rect>
+      <rect x="100" y="12" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.5s" repeatCount="indefinite"/></rect>
+      <rect x="120" y="8" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite"/></rect>
+      <rect x="140" y="16" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="160" y="10" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></rect>
+      <rect x="180" y="14" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.1s" repeatCount="indefinite"/></rect>
+      <rect x="200" y="8" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.9s" repeatCount="indefinite"/></rect>
+      <rect x="220" y="18" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="240" y="12" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.3s" repeatCount="indefinite"/></rect>
+      <rect x="260" y="8" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.6s" repeatCount="indefinite"/></rect>
+      <rect x="280" y="16" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="300" y="10" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.2s" repeatCount="indefinite"/></rect>
+      
+      <!-- Right side green cells -->
+      <rect x="700" y="12" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></rect>
+      <rect x="720" y="8" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite"/></rect>
+      <rect x="740" y="16" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="760" y="10" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.3s" repeatCount="indefinite"/></rect>
+      <rect x="780" y="14" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.8s" repeatCount="indefinite"/></rect>
+      <rect x="800" y="8" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.1s" repeatCount="indefinite"/></rect>
+      <rect x="820" y="18" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/></rect>
+      <rect x="840" y="12" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.3s" repeatCount="indefinite"/></rect>
+      <rect x="860" y="8" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="880" y="15" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.7s" repeatCount="indefinite"/></rect>
+      <rect x="900" y="10" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.2s" repeatCount="indefinite"/></rect>
+      <rect x="920" y="16" width="12" height="12" rx="2" fill="#1B7A32"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></rect>
+      <rect x="940" y="8" width="12" height="12" rx="2" fill="#239F40"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="960" y="14" width="12" height="12" rx="2" fill="#2EA84C"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.9s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- White Zone Cells -->
+    <g opacity="0.5">
+      <rect x="30" y="85" width="12" height="12" rx="2" fill="#CCCCCC"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.5s" repeatCount="indefinite"/></rect>
+      <rect x="55" y="90" width="12" height="12" rx="2" fill="#DDDDDD"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="80" y="82" width="12" height="12" rx="2" fill="#CCCCCC"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.1s" repeatCount="indefinite"/></rect>
+      <rect x="105" y="88" width="12" height="12" rx="2" fill="#DDDDDD"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/></rect>
+      <rect x="130" y="84" width="12" height="12" rx="2" fill="#CCCCCC"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/></rect>
+      <rect x="155" y="90" width="12" height="12" rx="2" fill="#DDDDDD"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.3s" repeatCount="indefinite"/></rect>
+      <rect x="180" y="82" width="12" height="12" rx="2" fill="#CCCCCC"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="3.5s" repeatCount="indefinite"/></rect>
+      <rect x="205" y="88" width="12" height="12" rx="2" fill="#DDDDDD"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></rect>
+      <rect x="230" y="85" width="12" height="12" rx="2" fill="#CCCCCC"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.9s" repeatCount="indefinite"/></rect>
+      <rect x="255" y="90" width="12" height="12" rx="2" fill="#DDDDDD"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.1s" repeatCount="indefinite"/></rect>
+      <rect x="280" y="82" width="12" height="12" rx="2" fill="#CCCCCC"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="305" y="88" width="12" height="12" rx="2" fill="#DDDDDD"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.3s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- Red Zone Cells -->
+    <g opacity="0.7">
+      <rect x="25" y="158" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.7s" repeatCount="indefinite"/></rect>
+      <rect x="50" y="165" width="12" height="12" rx="2" fill="#C00000"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/></rect>
+      <rect x="75" y="155" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="100" y="162" width="12" height="12" rx="2" fill="#E60000"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.6s" repeatCount="indefinite"/></rect>
+      <rect x="125" y="158" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="150" y="165" width="12" height="12" rx="2" fill="#C00000"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.5s" repeatCount="indefinite"/></rect>
+      <rect x="175" y="155" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.1s" repeatCount="indefinite"/></rect>
+      <rect x="200" y="162" width="12" height="12" rx="2" fill="#E60000"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.3s" repeatCount="indefinite"/></rect>
+      <rect x="225" y="158" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.3s" repeatCount="indefinite"/></rect>
+      <rect x="250" y="165" width="12" height="12" rx="2" fill="#C00000"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.8s" repeatCount="indefinite"/></rect>
+      <rect x="275" y="155" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/></rect>
+      <rect x="300" y="162" width="12" height="12" rx="2" fill="#E60000"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite"/></rect>
+      
+      <!-- Right side red cells -->
+      <rect x="710" y="160" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.9s" repeatCount="indefinite"/></rect>
+      <rect x="735" y="155" width="12" height="12" rx="2" fill="#C00000"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="760" y="162" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.2s" repeatCount="indefinite"/></rect>
+      <rect x="785" y="158" width="12" height="12" rx="2" fill="#E60000"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.7s" repeatCount="indefinite"/></rect>
+      <rect x="810" y="165" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="835" y="155" width="12" height="12" rx="2" fill="#C00000"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></rect>
+      <rect x="860" y="162" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="885" y="158" width="12" height="12" rx="2" fill="#E60000"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.2s" repeatCount="indefinite"/></rect>
+      <rect x="910" y="165" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.1s" repeatCount="indefinite"/></rect>
+      <rect x="935" y="155" width="12" height="12" rx="2" fill="#C00000"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.6s" repeatCount="indefinite"/></rect>
+      <rect x="960" y="162" width="12" height="12" rx="2" fill="#DA0000"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.3s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- ====== MATRIX RAIN EFFECT (Golden dots falling) ====== -->
+    <g filter="url(#lightGlow)">
+      <circle cx="50" cy="0" r="2" fill="#FFD700">
+        <animate attributeName="cy" values="-10;230" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="150" cy="0" r="2" fill="#FFD700">
+        <animate attributeName="cy" values="-30;230" dur="5.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="250" cy="0" r="1.5" fill="#FFD700">
+        <animate attributeName="cy" values="-20;240" dur="3.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="370" cy="0" r="2" fill="#FFD700">
+        <animate attributeName="cy" values="-50;250" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="750" cy="0" r="2" fill="#FFD700">
+        <animate attributeName="cy" values="-40;230" dur="4.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="850" cy="0" r="1.5" fill="#FFD700">
+        <animate attributeName="cy" values="-15;235" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="920" cy="0" r="2" fill="#FFD700">
+        <animate attributeName="cy" values="-25;240" dur="3.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="120" cy="0" r="1.5" fill="#FFD700">
+        <animate attributeName="cy" values="-60;250" dur="6.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="6.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="680" cy="0" r="1.5" fill="#FFD700">
+        <animate attributeName="cy" values="-35;240" dur="5.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="5.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="320" cy="0" r="2" fill="#FFD700">
+        <animate attributeName="cy" values="-5;230" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- ====== LION & SUN EMBLEM (Golden, Center) ====== -->
+    <g transform="translate(500, 110)" filter="url(#superGlow)">
+      
+      <!-- MASSIVE GLOW behind emblem -->
+      <circle cx="0" cy="0" r="65" fill="url(#emblemGlow)">
+        <animate attributeName="r" values="55;70;55" dur="3s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Second glow ring -->
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.2">
+        <animate attributeName="r" values="45;55;45" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.15;0.35;0.15" dur="3s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- ====== SUN (Khorshid) ====== -->
+      <!-- Sun rays -->
+      <g opacity="0.85">
+        <!-- 8 main rays -->
+        <g>
+          <line x1="0" y1="-28" x2="0" y2="-52" stroke="url(#goldLight)" stroke-width="3" stroke-linecap="round">
+            <animate attributeName="y2" values="-50;-58;-50" dur="2.5s" repeatCount="indefinite"/>
+          </line>
+          <line x1="0" y1="28" x2="0" y2="52" stroke="url(#goldLight)" stroke-width="3" stroke-linecap="round">
+            <animate attributeName="y2" values="50;58;50" dur="2.5s" repeatCount="indefinite"/>
+          </line>
+          <line x1="-28" y1="0" x2="-52" y2="0" stroke="url(#goldLight)" stroke-width="3" stroke-linecap="round"/>
+          <line x1="28" y1="0" x2="52" y2="0" stroke="url(#goldLight)" stroke-width="3" stroke-linecap="round"/>
+          
+          <!-- Diagonal rays -->
+          <line x1="-20" y1="-20" x2="-36" y2="-36" stroke="url(#goldLight)" stroke-width="2.5" stroke-linecap="round">
+            <animate attributeName="x2" values="-35;-40;-35" dur="2.8s" repeatCount="indefinite"/>
+            <animate attributeName="y2" values="-35;-40;-35" dur="2.8s" repeatCount="indefinite"/>
+          </line>
+          <line x1="20" y1="-20" x2="36" y2="-36" stroke="url(#goldLight)" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="-20" y1="20" x2="-36" y2="36" stroke="url(#goldLight)" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="20" y1="20" x2="36" y2="36" stroke="url(#goldLight)" stroke-width="2.5" stroke-linecap="round"/>
+          
+          <!-- Small inner rays -->
+          <line x1="-14" y1="-14" x2="-22" y2="-22" stroke="url(#goldLight)" stroke-width="1.5" opacity="0.5"/>
+          <line x1="14" y1="-14" x2="22" y2="-22" stroke="url(#goldLight)" stroke-width="1.5" opacity="0.5"/>
+          <line x1="-14" y1="14" x2="-22" y2="22" stroke="url(#goldLight)" stroke-width="1.5" opacity="0.5"/>
+          <line x1="14" y1="14" x2="22" y2="22" stroke="url(#goldLight)" stroke-width="1.5" opacity="0.5"/>
+        </g>
+      </g>
+
+      <!-- Sun face (circle behind lion) -->
+      <circle cx="0" cy="-8" r="12" fill="url(#gold)" stroke="#B8860B" stroke-width="0.8" opacity="0.95">
+        <animate attributeName="r" values="11.5;12.5;11.5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- ====== LION (Shir) ====== -->
+      <g transform="translate(0, 3)" filter="url(#mediumGlow)">
+        <!-- Lion body -->
+        <path d="M-8,-2 Q-13,5 -10,14 Q-7,19 0,21 Q7,19 10,14 Q13,5 8,-2 Z" 
+              fill="url(#gold)" stroke="#B8860B" stroke-width="0.6" opacity="0.95"/>
+        
+        <!-- Lion head -->
+        <ellipse cx="-8" cy="-7" rx="7" ry="6" fill="url(#gold)" stroke="#B8860B" stroke-width="0.6"/>
+        
+        <!-- Lion mane -->
+        <path d="M-16,-9 Q-20,-14 -15,-17 Q-11,-20 -7,-16 Q-4,-13 -8,-9 Z" 
+              fill="#DAA520" stroke="#B8860B" stroke-width="0.4" opacity="0.8"/>
+        <path d="M-18,-5 Q-23,-8 -20,-13 Q-17,-16 -14,-12 Q-12,-9 -15,-6 Z" 
+              fill="#DAA520" opacity="0.6"/>
+        
+        <!-- Lion eye -->
+        <ellipse cx="-10" cy="-8" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+        <circle cx="-9.5" cy="-8.5" r="0.5" fill="#FFF4A0" opacity="0.8"/>
+        
+        <!-- Lion mouth -->
+        <path d="M-13,-4.5 Q-11.5,-3 -10,-4.5" fill="none" stroke="#8B6914" stroke-width="0.6"/>
+        
+        <!-- Lion raised arm with sword -->
+        <path d="M-5,-5 Q-2,-10 3,-13 L2,-12 Q-1,-9 -3,-5 Z" fill="url(#goldLight)" stroke="#B8860B" stroke-width="0.4"/>
+        
+        <!-- Sword -->
+        <line x1="3" y1="-13" x2="10" y2="-25" stroke="#FFF4A0" stroke-width="2" stroke-linecap="round">
+          <animate attributeName="y2" values="-24;-27;-24" dur="2.5s" repeatCount="indefinite"/>
+        </line>
+        <line x1="9" y1="-24" x2="13" y2="-23" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="10" y1="-25" x2="14" y2="-24" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+        
+        <!-- Lion front legs -->
+        <path d="M-5,12 Q-5,18 -3,21 Q-1,22 0,21" fill="url(#gold)" stroke="#B8860B" stroke-width="0.6"/>
+        <path d="M3,12 Q3,18 2,21 Q1,22 0,21" fill="url(#gold)" stroke="#B8860B" stroke-width="0.6"/>
+        
+        <!-- Lion tail -->
+        <path d="M7,9 Q12,6 15,1 Q18,-4 21,-2" fill="none" stroke="url(#goldLight)" stroke-width="2" stroke-linecap="round">
+          <animate attributeName="d" values="M7,9 Q12,6 15,1 Q18,-4 21,-2;M7,9 Q13,5 16,0 Q19,-5 22,-3;M7,9 Q12,6 15,1 Q18,-4 21,-2" dur="2s" repeatCount="indefinite"/>
+        </path>
+        
+        <!-- Tail tip -->
+        <circle cx="21" cy="-2" r="2.5" fill="url(#goldLight)" stroke="#DAA520" stroke-width="0.5">
+          <animate attributeName="cx" values="21;22;21" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="cy" values="-2;-3;-2" dur="2s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- ====== SPARKLE EFFECT around Lion & Sun ====== -->
+    <g filter="url(#mediumGlow)">
+      <circle cx="440" cy="70" r="1.5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="1;3;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="560" cy="65" r="1.5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+        <animate attributeName="r" values="1;3;1" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+      <circle cx="430" cy="145" r="1.5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="r" values="1;2.5;1" dur="1.8s" repeatCount="indefinite" begin="1s"/>
+      </circle>
+      <circle cx="570" cy="150" r="1.5" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite" begin="0.3s"/>
+        <animate attributeName="r" values="1;2.5;1" dur="2.2s" repeatCount="indefinite" begin="0.3s"/>
+      </circle>
+      <circle cx="420" cy="105" r="1" fill="#FFD700">
+        <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite" begin="0.7s"/>
+      </circle>
+      <circle cx="580" cy="100" r="1" fill="#FFD700">
+        <animate attributeName="opacity" values="0;1;0" dur="1.7s" repeatCount="indefinite" begin="1.2s"/>
+      </circle>
+      <circle cx="468" cy="42" r="1" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0;1;0" dur="1.3s" repeatCount="indefinite" begin="0.2s"/>
+      </circle>
+      <circle cx="540" cy="38" r="1" fill="#FFFFFF">
+        <animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite" begin="0.8s"/>
+      </circle>
+    </g>
+
+    <!-- Border glow -->
+    <rect x="0" y="0" width="1000" height="220" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.15" rx="16">
+      <animate attributeName="opacity" values="0.1;0.25;0.1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
