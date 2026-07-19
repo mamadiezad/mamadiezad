@@ -1,8 +1,7 @@
-name: 🐍 Generate Snake
+name: 🐍 Generate Contribution Snake
 
 on:
   schedule:
-    # Runs daily at midnight UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -12,11 +11,12 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Generate Snake SVG
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -24,10 +24,10 @@ jobs:
             assets/snake.svg?palette=github-dark
             assets/snake-light.svg?palette=github-light
 
-      - name: Commit & Push
-        run: |
-          git config user.name "mamadiezad"
-          git config user.email "mamadiezad@github.com"
-          git add assets/snake.svg assets/snake-light.svg
-          git diff --staged --quiet || git commit -m "🐍 Auto-generated contribution snake [skip ci]"
-          git push
+      - name: Push to repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🐍 Auto-generated contribution snake [skip ci]"
+          commit_user_name: "mamadiezad"
+          commit_user_email: "mamadiezad@github.com"
+          file_pattern: assets/snake.svg assets/snake-light.svg
