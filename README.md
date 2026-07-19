@@ -1,14 +1,14 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:239F40,50:FFFFFF,100:DA0000&height=220&section=header&text=Mohammad&fontSize=55&fontColor=FFD700&animation=fadeIn&fontAlignY=33&desc=Security+%E2%80%A2+Blockchain+%E2%80%A2+Full-Stack&descAlignY=52&descSize=20" />
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:239F40,50:FFFFFF,100:DA0000&height=220&section=header&text=Mohammad&fontSize=55&fontColor=FFD700&animation=fadeIn&fontAlignY=33&desc=Security+%E2%80%A2+Blockchain+%E2%80%A2+Full-Stack&descAlignY=52&descSize=20" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:239F40,50:FFFFFF,100:DA0000&height=220&section=header&text=Mohammad&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=33&desc=Security+%E2%80%A2+Blockchain+%E2%80%A2+Full-Stack&descAlignY=52&descSize=20" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:239F40,50:FFFFFF,100:DA0000&height=220&section=header&text=Mohammad&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=33&desc=Security+%E2%80%A2+Blockchain+%E2%80%A2+Full-Stack&descAlignY=52&descSize=20" width="100%" />
   </picture>
 </div>
 
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=550&lines=%D8%B3%D9%84%D8%A7%D9%85+%D9%85%D9%86+%D9%85%D8%AD%D9%85%D8%AF+%D9%87%D8%B3%D8%AA%D9%85+%F0%9F%91%8B;Security+%26+Network+Specialist;Blockchain+Developer;Full-Stack+Senior+Engineer;PSM+I+Certified+%F0%9F%93%9C" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=550&lines=%D8%B3%D9%84%D8%A7%D9%85+%D9%85%D9%86+%D9%85%D8%AD%D9%85%D8%AF+%D9%87%D8%B3%D8%AA%D9%85+%F0%9F%91%8B;Security+%26+Network+Specialist;Blockchain+Developer;Full-Stack+Senior+Engineer;PSM+I+Certified+%F0%9F%93%9C" alt="Typing SVG" />
 </p>
 
 <br/>
@@ -76,18 +76,18 @@ class Mohammad:
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mamadiezad&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&bg_color=0d1117&title_color=FFD700&icon_color=239F40&text_color=FFFFFF&ring_color=DA0000" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mamadiezad&layout=compact&theme=highcontrast&hide_border=true&bg_color=0d1117&title_color=FFD700&text_color=FFFFFF&langs_count=8" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mamadiezad&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mamadiezad&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mamadiezad&theme=highcontrast&hide_border=true&background=0d1117&ring=FFD700&fire=DA0000&currStreakNum=FFFFFF&sideNums=FFD700&currStreakLabel=239F40&sideLabels=FFFFFF&dates=A0A0A0" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mamadiezad&theme=tokyonight&hide_border=true&background=0d1117" />
 </p>
 
 <br/>
 
 <p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mamadiezad&theme=react-dark&hide_border=true&bg_color=0d1117&area=true&title_color=FFD700&line=239F40&point=DA0000&color=FFFFFF" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mamadiezad&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" />
 </p>
 
 <br/>
@@ -97,7 +97,7 @@ class Mohammad:
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mamadiezad&theme=onedark&no-frame=true&row=2&column=4&no-bg=true&margin-w=15&margin-h=15" />
+  <img src="https://github-profile-trophy.vercel.app/?username=mamadiezad&theme=tokyonight&no-frame=true&no-bg=true&column=4" />
 </p>
 
 <br/>
