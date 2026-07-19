@@ -201,7 +201,6 @@ class Mohammad:
 
 <p align="center">
   <a href="https://gist.github.com/mamadiezad/877aa5113dd1e1a2377b92cc522bf140">
-    <img src="https://img.shields.io/badge/Gist-ابزارهای_ربات_تلگرام-1a1a2e?style=for-the-badge&logo=gist" />
   </a>
   <a href="https://mamadiezad.github.io/nextjs-portfolio/">
     <img src="https://img.shields.io/badge/Portfolio-mamadiezad.github.io-7c3aed?style=for-the-badge&logo=vercel" />
