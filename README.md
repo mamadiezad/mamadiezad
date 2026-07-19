@@ -21,7 +21,7 @@
 <br/>
 
 <p align="center">
-  <b>📍 Iran</b>
+  <b>📍 Iran</b><br/><img src="https://img.shields.io/github/followers/mamadiezad?label=Followers&amp;style=social" /> <img src="https://img.shields.io/github/stars/mamadiezad?label=Stars&amp;style=social" />
 </p>
 
 <br/>
