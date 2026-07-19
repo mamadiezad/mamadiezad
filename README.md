@@ -27,13 +27,7 @@
 <br/>
 
 <!-- Snake Animation - Auto-generated daily -->
-<div align="center">
-  <picture>
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/mamadiezad/mamadiezad/main/assets/snake.svg" width="100%" />
-  </picture>
-</div>
 
-<br/>
 
 ---
 
