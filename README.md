@@ -21,14 +21,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/mamadiezad">
-    <img src="https://img.shields.io/github/followers/mamadiezad?style=for-the-badge&logo=github&label=Followers&color=239F40" />
-  </a>
-  <a href="https://github.com/mamadiezad">
-    <img src="https://img.shields.io/github/stars/mamadiezad?style=for-the-badge&logo=github&label=Stars&color=DA0000" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=mamadiezad&style=for-the-badge&color=FFD700&label=Profile+Views" />
-  <img src="https://img.shields.io/badge/Location-Iran-FFD700?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Location-Iran-FFD700?style=for-the-badge&labelColor=0d1117" />
 </p>
 
 <br/>
