@@ -21,7 +21,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Location-Iran-FFD700?style=for-the-badge&labelColor=0d1117" />
+  <b>📍 Iran</b>
 </p>
 
 <br/>
@@ -188,20 +188,6 @@ class Mohammad:
 </table>
 
 </div>
-
-<br/>
-
----
-
-## 📈 Coding Philosophy
-
-> *"First, solve the problem. Then, write the code."* — **John Johnson**
->
-> *"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."* — **Martin Fowler**
->
-> *"Talk is cheap. Show me the code."* — **Linus Torvalds**
->
-> *"Make it work, make it right, make it fast."* — **Kent Beck**
 
 <br/>
 
