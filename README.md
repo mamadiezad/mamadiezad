@@ -13,9 +13,9 @@
 
 <br/>
 
-<!-- Iran Flag Snake Animation -->
+<!-- Iran Flag Contribution Grid with Lion & Sun -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mamadiezad/mamadiezad/main/assets/iran-snake.svg" alt="Iran Flag Snake" width="100%" />
+  <img src="https://raw.githubusercontent.com/mamadiezad/mamadiezad/main/assets/iran-grid.png" alt="Iran Flag Grid with Lion & Sun" width="100%" />
 </div>
 
 <br/>
