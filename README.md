@@ -28,7 +28,6 @@
 
 <!-- Snake Animation - Auto-generated daily -->
 
-
 ---
 
 ## 👨‍💻 About Me
@@ -95,113 +94,9 @@ class Mohammad:
 
 <br/>
 
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mamadiezad&theme=tokyonight&no-frame=true&no-bg=true&column=4" />
-</p>
-
-<br/>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| Project | Description | Stack |
-|:-------:|:-----------:|:-----:|
-| <a href="https://github.com/mamadiezad/fastapi-tasks"><b>📋 FastAPI Tasks</b></a> | RESTful task management API with JWT auth & Docker | `Python` `FastAPI` `PostgreSQL` |
-| <a href="https://github.com/mamadiezad/py-algorithms"><b>🧮 Py-Algorithms</b></a> | Algorithms & data structures in Python with full test coverage | `Python` `DSA` `Pytest` |
-| <a href="https://github.com/mamadiezad/ts-design-patterns"><b>🏗️ TS Design Patterns</b></a> | GoF design patterns in TypeScript with Jest | `TypeScript` `OOP` `Jest` |
-| <a href="https://github.com/mamadiezad/react-kanban"><b>📌 React Kanban</b></a> | Drag & drop kanban board with @dnd-kit | `React` `TypeScript` `Vite` |
-| <a href="https://github.com/mamadiezad/node-graphql-api"><b>⚡ Node GraphQL API</b></a> | GraphQL API with Apollo Server & Prisma | `Node.js` `GraphQL` `Prisma` |
-| <a href="https://github.com/mamadiezad/nextjs-portfolio"><b>🎨 Next.js Portfolio</b></a> | Modern portfolio with dark theme & Tailwind | `Next.js` `React` `Tailwind` |
-
-</div>
-
-<br/>
-
----
-
-## 📄 Experience
-
-### **Senior Full-Stack Developer** — `Rahbord Pardazesh KhavarMiane`
-*Oct 2021 – Present | Mashhad, Iran*
-
-> - Architected a comprehensive contract & document management system for a major construction firm — **reduced document retrieval time by 30%**
-> - Led a 3-person team migrating from Monolithic → Microservices architecture
-> - Built advanced reporting modules with custom executive dashboards
-
-### **Web Developer** — `Noavaran Dadeh Peyma`
-*Jun 2019 – Sep 2021 | Sabzevar, Iran*
-
-> - Developed the official taxi union portal (Sabzevar) with online requests, route tracking & e-payment
-> - Integrated PayLine payment gateway & Neshan maps for seamless UX
-> - Optimized database queries — **improved server response time by 60%**
-
-### **Side Project: Beauty Salon Booking App (Mobile)**
-> - Built with React Native, Node.js, MongoDB — deployed across 5 salons in Mashhad
-
-### **Education**
-> - **B.Sc. Software Engineering** — Ferdowsi University of Mashhad | **GPA: 17.2/20**
-> - **PSM I** — Scrum.org | Jan 2023
-
-<br/>
-
----
-
-<div align="right" dir="rtl">
-
-## 📝 چکیده رزومه
-
-<table>
-<tr>
-<td>
-
-**💼 توسعه‌دهنده ارشد فول‌استک** — راهبرد پردازش خاورمیانه | `۱۴۰۰ – اکنون`
-
-> ✓ سامانه مدیریت قراردادها — کاهش **۳۰٪** زمان بازیابی اسناد  
-> ✓ مهاجرت Monolithic → Microservices به عنوان لید تیم  
-> ✓ ماژول گزارش‌گیری با داشبورد سفارشی مدیران
-
-</td>
-</tr>
-<tr>
-<td>
-
-**💻 توسعه‌دهنده وب** — نوآوران داده‌پیما | `۱۳۹۸ – ۱۴۰۰`
-
-> ✓ پورتال تاکسیرانی سبزوار با پرداخت آنلاین  
-> ✓ بهینه‌سازی کوئری‌ها — بهبود **۶۰٪** زمان پاسخگویی
-
-</td>
-</tr>
-<tr>
-<td>
-
-**📱 اپ رزرو نوبت** • React Native • Node.js • MongoDB  
-**🎓 کارشناسی نرم‌افزار** • دانشگاه فردوسی مشهد • معدل **۱۷.۲**  
-**📜 PSM I** — Scrum.org
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
----
-
-
 ## 📦 Resources
 
 <p align="center">
-  <a href="https://gist.github.com/mamadiezad/877aa5113dd1e1a2377b92cc522bf140">
-  </a>
   <a href="https://mamadiezad.github.io/nextjs-portfolio/">
     <img src="https://img.shields.io/badge/Portfolio-mamadiezad.github.io-7c3aed?style=for-the-badge&logo=vercel" />
   </a>
