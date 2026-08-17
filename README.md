@@ -15,13 +15,13 @@
 
 <!-- Iran Flag Contribution Grid with Lion & Sun (Animated) -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mamadiezad/mamadiezad/main/assets/iran-grid.svg" alt="Iran Flag Contribution Grid with Golden Lion & Sun" width="100%" />
+  <img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/iran-grid.svg" alt="Iran Flag Contribution Grid with Golden Lion & Sun" width="100%" />
 </div>
 
 <br/>
 
 <p align="center">
-  <b>📍 Iran</b><br/><img src="https://img.shields.io/github/followers/mamadiezad?label=Followers&amp;style=social" /> <img src="https://img.shields.io/github/stars/mamadiezad?label=Stars&amp;style=social" />
+  <b>📍 Iran</b><br/><img src="https://img.shields.io/github/followers/mmdverse?label=Followers&amp;style=social" /> <img src="https://img.shields.io/github/stars/mmdverse?label=Stars&amp;style=social" />
 </p>
 
 <br/>
@@ -78,18 +78,18 @@ class Mohammad:
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mamadiezad&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mamadiezad&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mmdverse&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmdverse&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mamadiezad&theme=tokyonight&hide_border=true&background=0d1117" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mmdverse&theme=tokyonight&hide_border=true&background=0d1117" />
 </p>
 
 <br/>
 
 <p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mamadiezad&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mmdverse&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" />
 </p>
 
 <br/>
@@ -97,8 +97,8 @@ class Mohammad:
 ## 📦 Resources
 
 <p align="center">
-  <a href="https://mamadiezad.github.io/nextjs-portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-mamadiezad.github.io-7c3aed?style=for-the-badge&logo=vercel" />
+  <a href="https://github.com/mmdverse/nextjs-portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-GitHub-7c3aed?style=for-the-badge&logo=vercel" />
   </a>
 </p>
 
@@ -123,5 +123,5 @@ class Mohammad:
   
   <br/>
   
-  <sub>Built with ❤️ by <a href="https://github.com/mamadiezad">Mohammad</a></sub>
+  <sub>Built with ❤️ by <a href="https://github.com/mmdverse">Mohammad</a></sub>
 </div>

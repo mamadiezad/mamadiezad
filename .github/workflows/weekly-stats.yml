@@ -19,6 +19,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "📊 Weekly profile auto-update [skip ci]"
-          commit_user_name: "mamadiezad"
-          commit_user_email: "mamadiezad@github.com"
+          commit_user_name: "mmdverse"
+          commit_user_email: "102325921+mmdverse@users.noreply.github.com"
           file_pattern: .last-updated
