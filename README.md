@@ -30,37 +30,49 @@
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/mmdverse-system-map.svg" alt="mmdverse system map" width="100%" />
-</p>
-
 ## Selected systems
 
-| System | What it solves | Current shape |
-| :-- | :-- | :-- |
-| [**ParsiUX**](https://github.com/mmdverse/parsiux) | Persian-first UI intelligence, RTL audit and visual regression | TypeScript · Playwright · quality gates |
-| [**Telegram RAG Helpdesk**](https://github.com/mmdverse/telegram-rag-helpdesk) | Grounded answers from internal docs with human escalation | Python · SQLite · OpenAI-compatible embeddings |
-| [**Channel Curator**](https://github.com/mmdverse/telegram-channel-curator) | Filter, rewrite and review channel content before publishing | Pyrogram · LLM adapters · admin review |
-| [**Price Tracker**](https://github.com/mmdverse/telegram-price-tracker) | Product monitoring with alerts and price-history charts | Async scraping · SQLite · Matplotlib |
+<p align="center">
+  <sub>Six systems I would be happy to defend in a production review. Each bubble opens the project.</sub>
+</p>
 
-## How I build
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/mmdverse/parsiux"><img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/bubble-parsiux.svg" alt="ParsiUX" width="100%" /></a></td>
+    <td width="50%"><a href="https://github.com/mmdverse/gozaresh-reporting-system"><img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/bubble-gozaresh.svg" alt="Gozaresh enterprise reporting system" width="100%" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/mmdverse/telegram-rag-helpdesk"><img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/bubble-rag-helpdesk.svg" alt="Telegram RAG Helpdesk" width="100%" /></a></td>
+    <td width="50%"><a href="https://github.com/mmdverse/telegram-channel-curator"><img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/bubble-channel-curator.svg" alt="Telegram Channel Curator" width="100%" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/mmdverse/persian-smart-contracts"><img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/bubble-smart-contracts.svg" alt="Persian Smart Contracts" width="100%" /></a></td>
+    <td width="50%"><a href="https://github.com/mmdverse/fastapi-tasks"><img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/bubble-fastapi-tasks.svg" alt="FastAPI Tasks" width="100%" /></a></td>
+  </tr>
+</table>
 
-> **Make the happy path obvious. Make the failure path observable. Keep the output useful.**
+## Build notes
 
-- **Evidence over claims** — tests, reproducible bug reports and CI are part of the feature.
-- **Local-first where it matters** — SQLite, deterministic output and explicit fallbacks beat hidden magic.
-- **Interfaces serve people** — RTL, Persian text, accessibility and mixed-direction content are engineering constraints, not a final polish pass.
+> **Ship systems with a clear happy path, an observable failure path, and proof that the claim survives contact with reality.**
+
+- **Persian DX** — direction, language, text resilience and accessibility are design inputs, not a final CSS patch.
+- **Reliable automation** — review queues, deterministic output, retries and safe fallbacks are features.
+- **Trustworthy state** — use the smallest durable primitive that solves the problem, then make its behavior testable.
 
 ## Open-source trail
 
-- [Persian Quickstart for Hugging Face Hub](https://github.com/huggingface/huggingface_hub/pull/4687) — establishing the `fa` documentation track.
-- [ParsiUX Guardian](https://github.com/mmdverse/parsiux) — one command for static RTL checks, visual audit, regression baselines and Persian readiness rules.
+| Focus | A project worth opening |
+| :-- | :-- |
+| Enterprise correctness | [Gozaresh](https://github.com/mmdverse/gozaresh-reporting-system) — Decimal precision, signed approvals and a tamper-evident audit chain. |
+| Developer quality | [ParsiUX](https://github.com/mmdverse/parsiux) — Persian RTL quality gates, visual audit and regression baselines. |
+| Autonomous support | [Telegram RAG Helpdesk](https://github.com/mmdverse/telegram-rag-helpdesk) — document-grounded answers with human ticket escalation. |
+| On-chain controls | [Persian Smart Contracts](https://github.com/mmdverse/persian-smart-contracts) — multisig, escrow and upgradeable Solidity flows. |
 
 <details>
 <summary><b>Toolbox</b></summary>
 <br/>
 
-`Python` · `TypeScript` · `Async systems` · `Telegram MTProto` · `AI/RAG` · `React` · `Next.js` · `Playwright` · `Docker` · `SQLite` · `PostgreSQL` · `GitHub Actions`
+`Python` · `TypeScript` · `FastAPI` · `Async systems` · `Telegram MTProto` · `AI/RAG` · `React` · `Next.js` · `Playwright` · `Docker` · `SQLite` · `PostgreSQL` · `Solidity` · `GitHub Actions`
 
 </details>
 

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 212" role="img" aria-labelledby="title desc">
+  <title id="title">RAG Helpdesk</title>
+  <desc id="desc">grounded answers · human escalation</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#3b0764"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="4.8s" repeatCount="indefinite"/>
+    <rect x="10" y="12" width="480" height="184" rx="30" fill="url(#bg)" stroke="#c4b5fd" stroke-opacity=".46"/>
+    <circle cx="425" cy="54" r="50" fill="#c4b5fd" fill-opacity=".24" filter="url(#blur)"/>
+    <circle cx="425" cy="54" r="22" fill="#c4b5fd" fill-opacity=".92"/>
+    <path d="M48 153H452" stroke="#c4b5fd" stroke-opacity=".26"/>
+    <text x="48" y="58" fill="#c4b5fd" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.2">AI / RAG</text>
+    <text x="48" y="108" fill="#f8fafc" font-family="Arial, sans-serif" font-size="33" font-weight="700">RAG Helpdesk</text>
+    <text x="48" y="137" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">grounded answers · human escalation</text>
+    <text x="48" y="178" fill="#94a3b8" font-family="Arial, sans-serif" font-size="13" letter-spacing="1.4">OPEN PROJECT  ↗</text>
+  </g>
+</svg>
