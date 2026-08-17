@@ -30,77 +30,39 @@
 
 ---
 
-## 👨‍💻 About Me
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mmdverse/mmdverse/main/assets/mmdverse-system-map.svg" alt="mmdverse system map" width="100%" />
+</p>
 
-```python
-class Mohammad:
-    """Security specialist, blockchain dev, full-stack architect from Iran 🇮🇷"""
+## Selected systems
 
-    def __init__(self):
-        self.location = "🇮🇷 Iran"
-        self.education = "B.Sc. Software Engineering — Ferdowsi University of Mashhad"
-        self.gpa = "17.2 / 20"
-        self.certification = "Professional Scrum Master I (PSM I) — Scrum.org"
-        
-        self.roles = [
-            "🔐 Security & Network Specialist",
-            "⛓️ Blockchain Developer",
-            "💻 Full-Stack Senior Engineer",
-        ]
-        
-        self.stack = {
-            "languages": ["Python", "TypeScript", "JavaScript", "Solidity", "Rust"],
-            "backend": ["FastAPI", "Node.js", "NestJS", "Django"],
-            "frontend": ["React", "Next.js", "React Native"],
-            "infrastructure": ["Docker", "Kubernetes", "Linux"],
-            "databases": ["PostgreSQL", "MongoDB", "Redis"],
-            "blockchain": ["Solidity", "Smart Contracts", "Web3"],
-        }
+| System | What it solves | Current shape |
+| :-- | :-- | :-- |
+| [**ParsiUX**](https://github.com/mmdverse/parsiux) | Persian-first UI intelligence, RTL audit and visual regression | TypeScript · Playwright · quality gates |
+| [**Telegram RAG Helpdesk**](https://github.com/mmdverse/telegram-rag-helpdesk) | Grounded answers from internal docs with human escalation | Python · SQLite · OpenAI-compatible embeddings |
+| [**Channel Curator**](https://github.com/mmdverse/telegram-channel-curator) | Filter, rewrite and review channel content before publishing | Pyrogram · LLM adapters · admin review |
+| [**Price Tracker**](https://github.com/mmdverse/telegram-price-tracker) | Product monitoring with alerts and price-history charts | Async scraping · SQLite · Matplotlib |
 
-    def philosophy(self):
-        return "Clean code. Hardened security. Scalable architecture. Zero compromises."
-```
+## How I build
 
+> **Make the happy path obvious. Make the failure path observable. Keep the output useful.**
+
+- **Evidence over claims** — tests, reproducible bug reports and CI are part of the feature.
+- **Local-first where it matters** — SQLite, deterministic output and explicit fallbacks beat hidden magic.
+- **Interfaces serve people** — RTL, Persian text, accessibility and mixed-direction content are engineering constraints, not a final polish pass.
+
+## Open-source trail
+
+- [Persian Quickstart for Hugging Face Hub](https://github.com/huggingface/huggingface_hub/pull/4687) — establishing the `fa` documentation track.
+- [ParsiUX Guardian](https://github.com/mmdverse/parsiux) — one command for static RTL checks, visual audit, regression baselines and Persian readiness rules.
+
+<details>
+<summary><b>Toolbox</b></summary>
 <br/>
 
----
+`Python` · `TypeScript` · `Async systems` · `Telegram MTProto` · `AI/RAG` · `React` · `Next.js` · `Playwright` · `Docker` · `SQLite` · `PostgreSQL` · `GitHub Actions`
 
-## ⚡ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,solidity,rust,react,nextjs,nodejs,fastapi,nestjs,django,reactnative,docker,kubernetes,postgres,mongodb,redis,git,linux,aws,nginx,bash,graphql,tailwind,vercel,github&perline=13" />
-</p>
-
-<br/>
-
----
-
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mmdverse&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmdverse&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mmdverse&theme=tokyonight&hide_border=true&background=0d1117" />
-</p>
-
-<br/>
-
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=mmdverse&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" />
-</p>
-
-<br/>
-
-## 📦 Resources
-
-<p align="center">
-  <a href="https://github.com/mmdverse/nextjs-portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-GitHub-7c3aed?style=for-the-badge&logo=vercel" />
-  </a>
-</p>
+</details>
 
 <br/>
 
